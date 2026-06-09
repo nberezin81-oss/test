@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>КиберКарелия – Цифровая грамотность и безопасность</title>
+    <!-- Font Awesome 6 и Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <!-- Подключаем отдельный файл стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <a class="logo" href="#home"><i class="fas fa-shield-alt"></i> КиберКарелия</a>
+    <ul class="nav-links">
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#education">Обучение</a></li>
+    </ul>
+</header>
+
+<main>
+    <!-- Главная страница -->
+    <div id="page-home" class="page active">
+        <div class="hero">
+            <div class="hero-content reveal">
+                <h1>Региональный цифровой сервис «КиберКарелия»</h1>
+                <p>Сервис по обеспечению информационной безопасности и развитию цифровой грамотности в Республике Карелия</p>
+            </div>
+        </div>
+        <section class="section">
+            <h2 class="section-title reveal">О сервисе</h2>
+            <div class="info-cards-grid reveal">
+                <div class="info-card-large" id="missionTile"><i class="fas fa-bullseye"></i><h3>Миссия</h3></div>
+                <div class="info-card-large" id="relevanceTile"><i class="fas fa-sync-alt"></i><h3>Актуальность</h3></div>
+                <div class="info-card-large" id="aboutServiceTile"><i class="fas fa-info-circle"></i><h3>О сервисе</h3></div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title reveal">Актуальные киберугрозы</h2>
+            <div class="threats-grid reveal" id="threatsGridMain"></div>
+        </section>
+    </div>
+
+    <!-- Обучение -->
+    <div id="page-education" class="page">
+        <section class="section">
+            <h2 class="section-title reveal">Образовательные модули</h2>
+            <div class="features" id="eduModules">
+                <div class="feature-card reveal" data-module="school"><i class="fas fa-child fa-2x"></i><h4>Подростки 15-18 лет</h4></div>
+                <div class="feature-card reveal" data-module="teacher"><i class="fas fa-briefcase fa-2x"></i><h4>Взрослые 18-60 лет</h4></div>
+                <div class="feature-card reveal" data-module="official"><i class="fas fa-users fa-2x"></i><h4>Старшее поколение от 60 лет</h4></div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title reveal">Знания в тестах</h2>
+            <div class="quiz-container reveal" id="quizContainer">
+                <div id="categorySelection"><p style="text-align:center;font-weight:500;">Выберите категорию, чтобы начать тест:</p><div class="category-select"><button class="btn" data-category="school">Подростки 15-18 лет</button><button class="btn" data-category="teacher">Взрослые 18-60 лет</button><button class="btn" data-category="official">Старшее поколение от 60 лет</button></div></div>
+                <div id="quizArea" class="hidden"><div class="quiz-progress"><div id="progressFill" class="progress-fill"></div></div><div id="quizContent" class="question-card"></div><div id="resultDetail" class="result-box hidden"></div><div class="quiz-nav" style="display:flex; justify-content:space-between; margin-top:2rem;"><button id="nextBtn" class="btn hidden">Далее <i class="fas fa-arrow-right"></i></button></div><button id="restartBtn" class="btn hidden" style="background:var(--primary-light);">Пройти заново</button></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Страница учебных материалов для выбранного модуля -->
+    <div id="page-module" class="page">
+        <section class="section">
+            <div id="moduleContent" class="reveal"></div>
+            <div style="text-align:center; margin-top:2rem;"><a href="#education" class="btn btn-outline"><i class="fas fa-arrow-left"></i> Вернуться к обучению</a></div>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    <div style="max-width:1000px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;">
+        <div style="text-align:left;"><h4 style="color:white;">КиберКарелия</h4><p>© 2026 Республика Карелия</p><p style="margin-top:0.5rem;"><i class="fas fa-envelope"></i> info@cyberkarelia.ru &nbsp;|&nbsp; <i class="fas fa-phone"></i> +7 (8142) 00-00-00</p></div>
+        <div><a href="#home" style="color:#ccdde5;">Главная</a> | <a href="#education" style="color:#ccdde5;">Обучение</a></div>
+    </div>
+</footer>
+
+<!-- Модальные окна (о сервисе, миссия, актуальность) -->
+<div id="aboutServiceModal" class="modal"><div class="modal-content"><span class="close-modal closeAboutModal">&times;</span><h3><i class="fas fa-shield-alt"></i> О сервисе</h3><p>«КиберКарелия» — региональная образовательная платформа</p><p><strong>Цель:</strong> повышение цифровой грамотности и кибербезопасности всех возрастных групп населения: от подростков до старшего поколения.</p><p><strong>Возможности:</strong> интерактивные тесты, обучающие модули, практические рекомендации по защите от фишинга, социальной инженерии, мошенничества.</p> <p><strong>Для кого наш сервис?</strong> Для детей и подростков — чтобы учиться безопасному поведению в интернете. Для взрослых и старшего поколения — чтобы освоить цифровые навыки и не стать жертвой мошенников. Для педагогов и управленцев — чтобы внедрять современные технологии в образование. Для бизнеса и государственных служащих — чтобы защищать корпоративные и служебные данные</p> <button class="btn closeAboutModalBtn" style="margin-top:1.5rem;">Закрыть</button></div></div>
+<div id="missionModal" class="modal"><div class="modal-content"><span class="close-modal closeMissionModal">&times;</span><h3><i class="fas fa-bullseye"></i> Миссия сервиса</h3><p>Мы стремимся сделать цифровое пространство Карелии безопасным, доступным и понятным для каждого. Повышая цифровую грамотность, мы укрепляем информационную безопасность региона и открываем новые возможности для личного и профессионального роста</p><button class="btn closeMissionModalBtn" style="margin-top:1.5rem;">Закрыть</button></div></div>
+<div id="relevanceModal" class="modal"><div class="modal-content"><span class="close-modal closeRelevanceModal">&times;</span><h3><i class="fas fa-sync-alt"></i> Актуальность</h3><p>Актуальность сервиса «Кибер Карелия» заключается в переходе от реактивной защиты («что делать, если уже обманули») к проактивной цифровой гигиене. Сервис необходим, чтобы сформировать у подростков устойчивый иммунитет к вовлечению в преступные схемы, а у взрослых — разрушить миф о собственной «неуязвимости», заменив его конкретными навыками: от двухфакторной аутентификации до распознавания дипфейков</p><button class="btn closeRelevanceModalBtn" style="margin-top:1.5rem;">Закрыть</button></div></div>
+
+<!-- Модальное окно для детального просмотра угрозы -->
+<div id="threatModal" class="modal"><div class="modal-content"><span class="close-modal" id="closeThreatModalBtn">&times;</span><div id="threatModalContent"><h3 id="threatModalTitle"></h3><div id="threatModalText" class="threat-full-text"></div></div><button class="btn closeThreatModalFooter" style="margin-top:1.5rem;">Закрыть</button></div></div>
+
+<!-- Подключаем исправленный безопасный скрипт -->
+<script src="script.js"></script>
+</body>
+</html>
