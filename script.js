@@ -60,12 +60,28 @@
             { name: "4. Покупки в Интернете", url: "https://disk.yandex.ru/i/OoMIPevX5IRLMQ", type: "material" },
             { name: "5. Цифровой след и персональные данные", url: "https://disk.yandex.ru/i/qgwKS0px9jakpw", type: "material" },
             { name: "6. Цифровой этикет", url: "https://disk.yandex.ru/i/6sAkugvCkVvvTg", type: "material" },
+            
             { name: "1. Анонимность в сети", url: "https://disk.yandex.ru/i/ZOK9P35SuEQfhQ", type: "video" },
             { name: "2. Дипфейки", url: "https://disk.yandex.ru/i/6r_MfxLQsVhQTQ", type: "video" },
             { name: "3. Травля в Интернете", url: "https://disk.yandex.ru/d/KizB1EDWGqCY-A", type: "video" },
             { name: "4. Персональные данные", url: "https://disk.yandex.ru/d/QM9_ZgK0KsGI9A", type: "video" },
             { name: "5. Мошенничество в интернете", url: "https://disk.yandex.ru/d/qsqsaytju2MdHg", type: "video" },
-            { name: "6. Фейки в сети", url: "https://disk.yandex.ru/i/5caCM-oOw3XKmg", type: "video" }
+            { name: "6. Фейки в сети", url: "https://disk.yandex.ru/i/5caCM-oOw3XKmg", type: "video" },
+            
+            { name: "1. 10 советов как себя вести в интернете", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "2. Как обманывают в сети", url: "https://disk.yandex.ru/i/ars4xPYYsGEabQ", type: "brochure" },
+            { name: "3. Как определить фейк в сети", url: "https://disk.yandex.ru/i/uf0tBPigRYOaQQ", type: "brochure" },
+            { name: "4. Как победить компьютерные вирусы", url: "https://disk.yandex.ru/i/OgqnCZOCWM_Q_Q", type: "brochure" },
+            { name: "5. Как создать надежный пароль", url: "https://disk.yandex.ru/i/I7PiygAAL6S2jg", type: "brochure" },
+            { name: "6. Какие киберугрозы существуют", url: "https://disk.yandex.ru/i/F5R3e7Xy7Bscag", type: "brochure" },
+            { name: "7. Почему нельзя обмениваться интимными фото в интернете", url: "https://disk.yandex.ru/i/5Mz7fhGIC1CMeA", type: "brochure" },
+            { name: "8. Почему опасно общаться с незнакомцами онлайн", url: "https://disk.yandex.ru/i/aH5wud5oVW8BjA", type: "brochure" },
+            { name: "9. Реальные последствия виртуальной жизни", url: "https://disk.yandex.ru/i/_wln8aOvmbjLXw", type: "brochure" },
+            { name: "10. Существует ли анонимность в сети", url: "https://disk.yandex.ru/i/xraY60EA6U2N8w", type: "brochure" },
+            { name: "11. Травля в интернете", url: "https://disk.yandex.ru/i/UIHClm1fu_IbYA", type: "brochure" },
+            { name: "12. Что такое персональные данные", url: "https://disk.yandex.ru/i/aJ3QZUrOZIj92Q", type: "brochure" },
+            { name: "13. Что такое фишинг", url: "https://disk.yandex.ru/i/mGcfR5LEFxc8_w", type: "brochure" },
+            { name: "14. Что такое цифровой след", url: "https://disk.yandex.ru/i/NYpHQDS68K-akg", type: "brochure" }
         ],
         teacher: [
             { name: "1. Основы цифровой гигиены", url: "https://disk.yandex.ru/i/PSZTGEpJxa2nuA", type: "material" },
@@ -73,25 +89,44 @@
             { name: "3. Социальная инженерия на работе Вы — цель №1", url: "https://disk.yandex.ru/i/Y-N6q6eJVlziQw", type: "material" },
             { name: "4. Цифровой след, репутация и утечки данных", url: "https://disk.yandex.ru/i/JW7otDc2eKMQFQ", type: "material" },
             { name: "5. Цифровая безопасность на работе и дома", url: "https://disk.yandex.ru/i/qTYF4dTI6U6naQ", type: "material" },
+           
             { name: "1. правила цифровой гигиены", url: "https://disk.yandex.ru/i/yiDYSIGNfff3VQ", type: "video" },
             { name: "2. Как безопасно вести блог", url: "https://disk.yandex.ru/d/MfFHjSfoVBUapg", type: "video" },
             { name: "3. Дипфейк как защититься", url: "https://disk.yandex.ru/i/cEJGBeWnyO0YJA", type: "video" },
             { name: "4. Фейки как защититься", url: "https://disk.yandex.ru/i/Om_mdgStmmnsQA", type: "video" },
             { name: "5. Как защитить свои персональные данные", url: "https://disk.yandex.ru/i/-LuxLica-75mmg", type: "video" },
-            { name: "6. Мошенничество в сети", url: "https://disk.yandex.ru/i/3e5tV68tut5-Zg", type: "video" }
+            { name: "6. Мошенничество в сети", url: "https://disk.yandex.ru/i/3e5tV68tut5-Zg", type: "video" },
+            
+            { name: "1. Как защитить детей от поисковых систем", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "2. Как определить опасные сообщества в сети", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "3. Как победить компьютерные вирусы", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "4. Как подать жалобу на вредный контент в сети", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "5. Как совершать покупки в сети", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "6. Как создать надежный пароль", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "7. Какие киберугрозы существуют", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "8. Мошенники в сети как обезопаситься", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "9. Мошенничество с банковскими картами как себя обезопасить", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "10. Почему нельзя обмениваться интимными фото в интернете", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "11. Что нельзя делать в сети", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "12. Что относиться к персональным данным", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" },
+            { name: "13. Что такое фейк", url: "https://disk.yandex.ru/i/nnuZnWmjEZRgzw", type: "brochure" }
         ],
         official: [
             { name: "1. Инфо-грамотность: как распознать и остановить мошенников", url: "https://disk.yandex.ru/i/ga579lgkrYQxDw", type: "material" },
             { name: "2. Интернет без страха: как распознать обман и защитить себя", url: "https://disk.yandex.ru/i/Q_cacG0DB4qNlw", type: "material" },
             { name: "3. Цифровая крепость: как защитить данные и деньги", url: "https://disk.yandex.ru/i/JnRvE9AQ0TpLCA", type: "material" },
             { name: "4. Критическое мышление и проверка информации", url: "https://disk.yandex.ru/i/w5spWIUKv9pVKA", type: "material" },
+            
             { name: "1. Правила цифровой гигиены", url: "https://disk.yandex.ru/i/yiDYSIGNfff3VQ", type: "video" },
             { name: "2. Дипфейк как защититься", url: "https://disk.yandex.ru/i/cEJGBeWnyO0YJA", type: "video" },
             { name: "3. Фейки как защититься", url: "https://disk.yandex.ru/i/Om_mdgStmmnsQA", type: "video" },
             { name: "4. Мошенничество в сети", url: "https://disk.yandex.ru/i/3e5tV68tut5-Zg", type: "video" },
             { name: "5. Как защитить свои персональные данные", url: "https://disk.yandex.ru/i/-LuxLica-75mmg", type: "video" },
-            { name: "📱 Буклет: Антивирус для смартфона", url: "https://www.kaspersky.ru/resource-center", type: "brochure" },
-            { name: "📄 Памятка: Защита от телефонного мошенничества (крупный шрифт)", url: "https://cbr.ru/StaticHtml/File/112853/pamyatka_moshennichestvo.pdf", type: "brochure" }
+            
+            { name: "1. Памятка по цифрой безопасности (общая) для старшего возраста", url: "https://disk.yandex.ru/i/l5PFDj6nfYGBTA", type: "brochure" },
+            { name: "2. Как создать надежный пароль", url: "https://disk.yandex.ru/i/dUY37Y25tD0n4w", type: "brochure" },
+            { name: "3. Что делать если звонят мошенники", url: "https://disk.yandex.ru/i/zLqvJbFJlZvuFw", type: "brochure" },
+            { name: "4. Что такое фейки и как защититься", url: "https://disk.yandex.ru/i/yvgtjtYPKdplTQ", type: "brochure" }
         ]
     };
 
